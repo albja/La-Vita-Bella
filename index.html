@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>La Vita è Bella – Restaurant Italien · Aizenay</title>
+        <meta
+            name="description"
+            content="Restaurant italien authentique à Aizenay. Pizzas maison, pâtes fraîches, cuisine italienne faite avec des ingrédients frais et de qualité."
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="icon"
+            href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍕</text></svg>"
+        />
+    </head>
+    <body>
+        <!-- ===== NAVBAR ===== -->
+        <nav class="navbar" id="navbar">
+            <div class="container">
+                <div class="nav-inner">
+                    <a href="index.html" class="nav-logo">
+                        <span class="nav-logo-main"
+                            >La Vita <em>è</em> Bella</span
+                        >
+                        <span class="nav-logo-sub"
+                            >Restaurant Italien · Aizenay</span
+                        >
+                    </a>
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="active">Accueil</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li>
+                            <a href="contact.html">Horaires &amp; Adresse</a>
+                        </li>
+                    </ul>
+                    <a href="tel:0251627664" class="btn btn-primary nav-reserve"
+                        >📞 Réserver</a
+                    >
+                    <div
+                        class="nav-burger"
+                        id="burger"
+                        aria-label="Menu"
+                        role="button"
+                        tabindex="0"
+                    >
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="nav-mobile" id="nav-mobile">
+                    <a href="index.html">Accueil</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="contact.html">Horaires &amp; Adresse</a>
+                    <a
+                        href="tel:0251627664"
+                        class="btn btn-primary"
+                        style="text-align: center; margin-top: 8px"
+                        >📞 02 51 62 76 64</a
+                    >
+                </div>
+            </div>
+        </nav>
+
+        <!-- ===== HERO ===== -->
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-badge">🇮🇹 Cuisine Italienne Authentique</div>
+                <h1>La Vita <em>è</em> Bella</h1>
+                <p class="hero-tagline">
+                    Dans une ambiance chaleureuse, savourez nos pizzas maison et
+                    notre cuisine italienne préparée avec des ingrédients frais
+                    de qualité.
+                </p>
+                <div class="hero-actions">
+                    <a href="menu.html" class="btn btn-primary"
+                        >Découvrir le Menu</a
+                    >
+                    <a href="tel:0251627664" class="btn btn-outline"
+                        >Réserver une table</a
+                    >
+                </div>
+            </div>
+            <div class="hero-scroll">Découvrir</div>
+        </section>
+
+        <!-- ===== ABOUT ===== -->
+        <section class="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-img-wrap fade-in-left">
+                        <img
+                            class="about-img-main"
+                            src="https://static.wixstatic.com/media/bc4538_1f760b3412c646308cc80b509c833ed4~mv2.jpeg/v1/fill/w_800,h_900,al_c,q_85,enc_avif,quality_auto/bc4538_1f760b3412c646308cc80b509c833ed4~mv2.jpeg"
+                            alt="Façade du restaurant La Vita è Bella à Aizenay"
+                            loading="lazy"
+                        />
+                        <div class="about-img-badge">
+                            <strong>100%</strong>
+                            <span>Fait maison</span>
+                        </div>
+                    </div>
+                    <div class="about-text fade-in-right">
+                        <span class="tag">Notre histoire</span>
+                        <h2>Une cuisine italienne du cœur</h2>
+                        <p>
+                            Chez <em>La Vita è Bella</em>, nous croyons que
+                            chaque repas est une célébration. Venez déguster nos
+                            pizzas et nos plats faits maison, préparés avec des
+                            ingrédients frais, de qualité et 100% italiens.
+                        </p>
+                        <p>
+                            Notre chef vous invite à voyager jusqu'en Italie le
+                            temps d'un repas : pâtes fraîches, burrata crémeuse,
+                            pizzas à pâte fine... Une cuisine authentique qui
+                            réchauffe les cœurs.
+                        </p>
+                        <div class="about-features">
+                            <div class="about-feature">
+                                <div class="icon">🍅</div>
+                                <strong>Ingrédients frais</strong>
+                                <span>Sélectionnés chaque jour</span>
+                            </div>
+                            <div class="about-feature">
+                                <div class="icon">🍕</div>
+                                <strong>Pizzas maison</strong>
+                                <span>Pâte à pizza maison</span>
+                            </div>
+                            <div class="about-feature">
+                                <div class="icon">🤌</div>
+                                <strong>100% Fait maison</strong>
+                                <span>Recettes traditionnelles</span>
+                            </div>
+                        </div>
+                        <a href="menu.html" class="btn btn-primary"
+                            >Voir notre menu</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== MENU APERÇU ===== -->
+        <section class="menu-preview">
+            <div class="container">
+                <div class="divider fade-in">
+                    <span></span><i>🍽️</i><span></span>
+                </div>
+                <h2 class="section-title fade-in">Nos spécialités</h2>
+                <p class="section-subtitle fade-in">
+                    Un avant-goût de nos meilleures préparations
+                </p>
+
+                <div class="menu-tabs fade-in">
+                    <button class="menu-tab active" data-target="pizzas">
+                        🍕 Pizzas
+                    </button>
+                    <button class="menu-tab" data-target="pasta">
+                        🍝 Pasta
+                    </button>
+                    <button class="menu-tab" data-target="antipasti">
+                        🥖 Antipasti
+                    </button>
+                    <button class="menu-tab" data-target="desserts">
+                        🍰 Desserts
+                    </button>
+                </div>
+
+                <div class="menu-grid">
+                    <!-- PIZZAS -->
+                    <div
+                        class="menu-card"
+                        data-cat="pizzas"
+                        style="animation-delay: 0.05s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Margherita</h3>
+                            <span class="menu-price">11€</span>
+                        </div>
+                        <p>Sauce tomate, mozzarella fior di latte.</p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="pizzas"
+                        style="animation-delay: 0.1s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Tartufata</h3>
+                            <span class="menu-price">20€</span>
+                        </div>
+                        <p>
+                            Crème de truffe, mozzarella fior di latte, jambon à
+                            l'os, burrata.
+                        </p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="pizzas"
+                        style="animation-delay: 0.15s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Mortadella</h3>
+                            <span class="menu-price">20€</span>
+                        </div>
+                        <p>
+                            Mortadelle à la pistache, concassé de pistache,
+                            pesto, burrata.
+                        </p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="pizzas"
+                        style="animation-delay: 0.2s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Bresaola</h3>
+                            <span class="menu-price">22€</span>
+                        </div>
+                        <p>
+                            Brésaola Black Angus, roquette, burrata, pesto,
+                            parmesan.
+                        </p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="pizzas"
+                        style="animation-delay: 0.25s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Diavola</h3>
+                            <span class="menu-price">18€</span>
+                        </div>
+                        <p>
+                            Sauce tomate, mozzarella fior di latte, gorgonzola,
+                            ventricina piccante.
+                        </p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="pizzas"
+                        style="animation-delay: 0.3s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Boscaiola</h3>
+                            <span class="menu-price">20€</span>
+                        </div>
+                        <p>Poulet rôti, taleggio, noix, miel à la truffe.</p>
+                    </div>
+                    <!-- PASTA -->
+                    <div
+                        class="menu-card"
+                        data-cat="pasta"
+                        style="animation-delay: 0.05s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Penne Quattro Formaggi</h3>
+                            <span class="menu-price">16€</span>
+                        </div>
+                        <p>
+                            Gorgonzola, taleggio, pecorino, parmesan, vin blanc,
+                            crème.
+                        </p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="pasta"
+                        style="animation-delay: 0.1s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Tagliatelle al pesto</h3>
+                            <span class="menu-price">19€</span>
+                        </div>
+                        <p>Pesto, jambon de parme, burrata, pignons de pin.</p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="pasta"
+                        style="animation-delay: 0.15s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Cannelloni maison</h3>
+                            <span class="menu-price">17€</span>
+                        </div>
+                        <p>Ricotta, épinards, sauce napolitana, parmesan.</p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="pasta"
+                        style="animation-delay: 0.2s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Penne alla Norma</h3>
+                            <span class="menu-price">15€</span>
+                        </div>
+                        <p>Aubergines, sauce napolitaine, ricotta salée.</p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="pasta"
+                        style="animation-delay: 0.25s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Gnocchi tartufo</h3>
+                            <span class="menu-price">15€</span>
+                        </div>
+                        <p>Gnocchi maison à la crème de truffe.</p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="pasta"
+                        style="animation-delay: 0.3s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Escalope Parmigiana</h3>
+                            <span class="menu-price">24€</span>
+                        </div>
+                        <p>
+                            Escalope de noix de veau panée, sauce napolitana,
+                            aubergines, mozzarella, tagliatelles.
+                        </p>
+                    </div>
+                    <!-- ANTIPASTI -->
+                    <div
+                        class="menu-card"
+                        data-cat="antipasti"
+                        style="animation-delay: 0.05s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Burrata au cœur de pesto</h3>
+                            <span class="menu-price">10€</span>
+                        </div>
+                        <p>
+                            Roquette, tomates cerises, copeaux de parmesan,
+                            pistache.
+                        </p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="antipasti"
+                        style="animation-delay: 0.1s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Carpaccio de bresaola</h3>
+                            <span class="menu-price">12€</span>
+                        </div>
+                        <p>
+                            Bresaola Black Angus, roquette, copeaux de parmesan,
+                            câpres.
+                        </p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="antipasti"
+                        style="animation-delay: 0.15s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Planche mixte à partager</h3>
+                            <span class="menu-price">20€</span>
+                        </div>
+                        <p>
+                            Charcuteries et fromages italiens, pesto, burrata,
+                            olives Kalamata, gressini.
+                        </p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="antipasti"
+                        style="animation-delay: 0.2s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Salumeria</h3>
+                            <span class="menu-price">12€</span>
+                        </div>
+                        <p>
+                            Planche mixte de charcuteries italiennes et fromages
+                            italiens.
+                        </p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="antipasti"
+                        style="animation-delay: 0.25s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Focaccia</h3>
+                            <span class="menu-price">8€</span>
+                        </div>
+                        <p>
+                            Huile d'olive extra vierge, romarin, sel, pain à
+                            pizza.
+                        </p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="antipasti"
+                        style="animation-delay: 0.3s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Italienne (salade)</h3>
+                            <span class="menu-price">18€</span>
+                        </div>
+                        <p>
+                            Salade, tomates cerises, parmesan, burrata, pesto,
+                            jambon de parme.
+                        </p>
+                    </div>
+                    <!-- DESSERTS -->
+                    <div
+                        class="menu-card"
+                        data-cat="desserts"
+                        style="animation-delay: 0.05s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Tiramisù maison</h3>
+                            <span class="menu-price">8€</span>
+                        </div>
+                        <p>Recette traditionnelle, préparée chaque jour.</p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="desserts"
+                        style="animation-delay: 0.1s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Panna cotta maison</h3>
+                            <span class="menu-price">7€</span>
+                        </div>
+                        <p>Onctueuse, préparée avec des ingrédients frais.</p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="desserts"
+                        style="animation-delay: 0.15s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Baba au limoncello</h3>
+                            <span class="menu-price">9€</span>
+                        </div>
+                        <p>Baba généreusement imbibé au limoncello sicilien.</p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="desserts"
+                        style="animation-delay: 0.2s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Nutellino</h3>
+                            <span class="menu-price">12€</span>
+                        </div>
+                        <p>Déclinaison gourmande autour du Nutella.</p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="desserts"
+                        style="animation-delay: 0.25s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Glaces artisanales</h3>
+                            <span class="menu-price">dès 6€</span>
+                        </div>
+                        <p>
+                            Dame blanche, Amarena, Limoncello, Chocolat
+                            liégeois…
+                        </p>
+                    </div>
+                    <div
+                        class="menu-card"
+                        data-cat="desserts"
+                        style="animation-delay: 0.3s"
+                    >
+                        <div class="menu-card-header">
+                            <h3>Café gourmand</h3>
+                            <span class="menu-price">10€</span>
+                        </div>
+                        <p>Un café accompagné de nos mignardises maison.</p>
+                    </div>
+                </div>
+
+                <div class="menu-cta fade-in">
+                    <a href="menu.html" class="btn btn-primary"
+                        >Voir le menu complet</a
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== AMBIANCE ===== -->
+        <section class="ambiance">
+            <div class="container">
+                <div class="divider fade-in">
+                    <span></span><i style="color: var(--oro)">✨</i
+                    ><span></span>
+                </div>
+                <h2 class="section-title fade-in">L'ambiance</h2>
+                <p class="section-subtitle fade-in">
+                    Un cadre chaleureux pour partager des moments inoubliables
+                </p>
+                <div class="gallery-grid">
+                    <div class="gallery-item fade-in">
+                        <img
+                            src="https://static.wixstatic.com/media/bc4538_88edb74a117046d58d4e8a20bae22fd8~mv2.jpeg/v1/fill/w_900,h_700,al_c,q_85,enc_avif,quality_auto/bc4538_88edb74a117046d58d4e8a20bae22fd8~mv2.jpeg"
+                            alt="Façade La Vita è Bella"
+                            loading="lazy"
+                        />
+                        <div class="gallery-overlay"></div>
+                    </div>
+                    <div
+                        class="gallery-item fade-in"
+                        style="transition-delay: 0.1s"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80"
+                            alt="Ambiance restaurant italien"
+                            loading="lazy"
+                        />
+                        <div class="gallery-overlay"></div>
+                    </div>
+                    <div
+                        class="gallery-item fade-in"
+                        style="transition-delay: 0.15s"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80"
+                            alt="Pizza maison"
+                            loading="lazy"
+                        />
+                        <div class="gallery-overlay"></div>
+                    </div>
+                    <div
+                        class="gallery-item fade-in"
+                        style="transition-delay: 0.2s"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&q=80"
+                            alt="Pâtes italiennes"
+                            loading="lazy"
+                        />
+                        <div class="gallery-overlay"></div>
+                    </div>
+                    <div
+                        class="gallery-item fade-in"
+                        style="transition-delay: 0.25s"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80"
+                            alt="Table dressée"
+                            loading="lazy"
+                        />
+                        <div class="gallery-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== INFO STRIP ===== -->
+        <div class="info-strip">
+            <div class="container">
+                <div class="info-strip-grid">
+                    <div class="info-item fade-in">
+                        <div class="info-icon">📍</div>
+                        <h4>Nous trouver</h4>
+                        <p>107 rue de la Roche<br />85190 Aizenay</p>
+                    </div>
+                    <div
+                        class="info-item fade-in"
+                        style="transition-delay: 0.1s"
+                    >
+                        <div class="info-icon">🕐</div>
+                        <h4>Horaires</h4>
+                        <p>
+                            Lun.–Jeu. : 12h–14h / 19h–21h30<br />Ven. &amp; Sam.
+                            : 12h–14h / 19h–22h<br />Dimanche : Fermé
+                        </p>
+                    </div>
+                    <div
+                        class="info-item fade-in"
+                        style="transition-delay: 0.2s"
+                    >
+                        <div class="info-icon">📞</div>
+                        <h4>Réservations</h4>
+                        <p><a href="tel:0251627664">02 51 62 76 64</a></p>
+                        <p
+                            style="
+                                margin-top: 4px;
+                                font-size: 0.8rem;
+                                opacity: 0.75;
+                            "
+                        >
+                            -10% sur les commandes à emporter 🍕
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== AVIS ===== -->
+        <section class="reviews">
+            <div class="container">
+                <div class="divider fade-in">
+                    <span></span><i>⭐</i><span></span>
+                </div>
+                <h2 class="section-title fade-in">Ils nous font confiance</h2>
+                <p class="section-subtitle fade-in">
+                    Les avis de nos clients fidèles
+                </p>
+                <div class="reviews-grid">
+                    <div class="review-card fade-in">
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">
+                            « Une cuisine italienne authentique et savoureuse.
+                            La burrata au cœur de pesto était absolument
+                            délicieuse. On y retournera très vite ! »
+                        </p>
+                        <div class="review-author">Sophie M.</div>
+                        <div class="review-date">Mars 2025</div>
+                    </div>
+                    <div
+                        class="review-card fade-in"
+                        style="transition-delay: 0.1s"
+                    >
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">
+                            « Les meilleures pizzas de la région, sans aucun
+                            doute. La Tartufata à la truffe est un chef-d'œuvre.
+                            Le service est chaleureux et attentionné. »
+                        </p>
+                        <div class="review-author">Thomas &amp; Julie</div>
+                        <div class="review-date">Février 2025</div>
+                    </div>
+                    <div
+                        class="review-card fade-in"
+                        style="transition-delay: 0.2s"
+                    >
+                        <div class="review-stars">★★★★★</div>
+                        <p class="review-text">
+                            « Cadre magnifique, cuisine généreuse et délicieuse.
+                            Le tiramisù maison est divin. Une vraie perle
+                            italienne au cœur de Vendée ! »
+                        </p>
+                        <div class="review-author">Marie-Claire D.</div>
+                        <div class="review-date">Janvier 2025</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CTA RÉSERVATION ===== -->
+        <section class="cta-section">
+            <div class="container">
+                <h2 class="fade-in">Réservez votre table</h2>
+                <p class="fade-in">
+                    Profitez d'une soirée inoubliable en famille ou entre amis
+                    dans notre restaurant chaleureux.
+                </p>
+                <a href="tel:0251627664" class="btn btn-gold fade-in"
+                    >Appeler pour réserver</a
+                >
+                <div class="cta-tel fade-in">
+                    <a href="tel:0251627664">02 51 62 76 64</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FOOTER ===== -->
+        <footer>
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <span class="nav-logo-main"
+                            >La Vita <em>è</em> Bella</span
+                        >
+                        <span
+                            class="nav-logo-sub"
+                            style="
+                                font-size: 0.7rem;
+                                letter-spacing: 0.2em;
+                                text-transform: uppercase;
+                                color: rgba(255, 255, 255, 0.4);
+                            "
+                            >Restaurant Italien · Aizenay</span
+                        >
+                        <p>
+                            Une cuisine italienne authentique préparée avec
+                            passion, des ingrédients frais et la tradition
+                            culinaire italienne.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="menu.html">Notre Menu</a></li>
+                            <li>
+                                <a href="contact.html"
+                                    >Horaires &amp; Adresse</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Contact</h4>
+                        <ul>
+                            <li>
+                                <a href="tel:0251627664">📞 02 51 62 76 64</a>
+                            </li>
+                            <li>📍 107 rue de la Roche</li>
+                            <li>85190 Aizenay</li>
+                            <li
+                                style="
+                                    margin-top: 8px;
+                                    color: rgba(255, 255, 255, 0.4);
+                                    font-size: 0.85rem;
+                                "
+                            >
+                                Lun.–Sam. : 12h–14h / 19h–…<br />Dimanche :
+                                Fermé
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span>© 2026 La Vita è Bella – Tous droits réservés</span>
+                    <div
+                        style="
+                            display: flex;
+                            gap: 24px;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        "
+                    >
+                        <a href="#">Mentions légales</a>
+                        <a href="#">Politique de confidentialité</a>
+                        <a href="#">Politique de cookies</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

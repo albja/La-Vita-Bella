@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Menu – La Vita è Bella · Restaurant Italien Aizenay</title>
+        <meta
+            name="description"
+            content="Découvrez notre menu : antipasti, pizzas maison, pasta, plats, salades et desserts italiens authentiques à Aizenay."
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="icon"
+            href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍕</text></svg>"
+        />
+    </head>
+    <body>
+        <!-- ===== NAVBAR ===== -->
+        <nav class="navbar scrolled" id="navbar">
+            <div class="container">
+                <div class="nav-inner">
+                    <a href="index.html" class="nav-logo">
+                        <span class="nav-logo-main"
+                            >La Vita <em>è</em> Bella</span
+                        >
+                        <span class="nav-logo-sub"
+                            >Restaurant Italien · Aizenay</span
+                        >
+                    </a>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="menu.html" class="active">Menu</a></li>
+                        <li>
+                            <a href="contact.html">Horaires &amp; Adresse</a>
+                        </li>
+                    </ul>
+                    <a href="tel:0251627664" class="btn btn-primary nav-reserve"
+                        >📞 Réserver</a
+                    >
+                    <div
+                        class="nav-burger"
+                        id="burger"
+                        aria-label="Menu"
+                        role="button"
+                        tabindex="0"
+                    >
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="nav-mobile" id="nav-mobile">
+                    <a href="index.html">Accueil</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="contact.html">Horaires &amp; Adresse</a>
+                    <a
+                        href="tel:0251627664"
+                        class="btn btn-primary"
+                        style="text-align: center; margin-top: 8px"
+                        >📞 02 51 62 76 64</a
+                    >
+                </div>
+            </div>
+        </nav>
+
+        <!-- ===== PAGE HERO ===== -->
+        <div class="page-hero">
+            <div class="page-hero-bg"></div>
+            <div class="page-hero-overlay"></div>
+            <div class="page-hero-content">
+                <h1>Notre Menu</h1>
+                <p>
+                    Cuisine italienne authentique · Ingrédients frais de qualité
+                </p>
+            </div>
+        </div>
+
+        <!-- ===== FULL MENU ===== -->
+        <main class="full-menu">
+            <div class="container">
+                <!-- ANTIPASTI -->
+                <div class="menu-section fade-in">
+                    <div class="menu-section-header">
+                        <span class="menu-section-icon">🥖</span>
+                        <h2>Antipasti</h2>
+                    </div>
+                    <div class="menu-items-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Focaccia</h3>
+                                <p>
+                                    Huile d'olive extra vierge, romarin, sel,
+                                    pain à pizza.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">8€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Burrata au cœur de pesto</h3>
+                                <p>
+                                    Roquette, tomates cerises, copeaux de
+                                    parmesan, pistache.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">10€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Carpaccio de bresaola Black Angus</h3>
+                                <p>
+                                    Bresaola Black Angus, roquette, copeaux de
+                                    parmesan, câpres, parmesan.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">12€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Salumeria</h3>
+                                <p>
+                                    Planche mixte de charcuteries italiennes et
+                                    fromages italiens.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">12€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Planche mixte à partager</h3>
+                                <p>
+                                    Charcuteries et fromages italiens, pesto,
+                                    burrata, olives Kalamata, gressini.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">20€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PASTA -->
+                <div class="menu-section fade-in">
+                    <div class="menu-section-header">
+                        <span class="menu-section-icon">🍝</span>
+                        <h2>Pasta</h2>
+                    </div>
+                    <div class="menu-items-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Penne alla Napolitana</h3>
+                                <p>
+                                    Sauce tomate, ail, échalotes, oignons, vin
+                                    blanc, basilic, parmesan.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">14€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Penne alla Norma</h3>
+                                <p>
+                                    Aubergines, sauce napolitaine, ricotta
+                                    salée.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">15€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Penne Quattro Formaggi</h3>
+                                <p>
+                                    Gorgonzola, taleggio, pecorino, parmesan,
+                                    vin blanc, crème.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">16€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Cannelloni maison</h3>
+                                <p>
+                                    Ricotta, épinards, sauce napolitana,
+                                    parmesan.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">17€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Tagliatelle al pesto</h3>
+                                <p>
+                                    Pesto, jambon de parme, burrata, pignons de
+                                    pin.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">19€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PIZZAS -->
+                <div class="menu-section fade-in">
+                    <div class="menu-section-header">
+                        <span class="menu-section-icon">🍕</span>
+                        <h2>Pizzas</h2>
+                    </div>
+                    <p class="menu-note">
+                        -10% sur toutes les pizzas à emporter 🛵
+                    </p>
+                    <br />
+                    <div class="menu-items-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Margherita</h3>
+                                <p>Sauce tomate, mozzarella fior di latte.</p>
+                            </div>
+                            <span class="menu-item-price">11€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Prosciutto</h3>
+                                <p>
+                                    Sauce tomate, mozzarella fior di latte,
+                                    jambon à l'os italien.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">13€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Capricciosa</h3>
+                                <p>
+                                    Sauce tomate, mozzarella fior di latte,
+                                    jambon à l'os, champignons frais, œuf.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">15€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Napoli</h3>
+                                <p>
+                                    Sauce tomate, mozzarella fior di latte,
+                                    anchois, câpres, olives Kalamata, parmesan.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">15€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Quattro Formaggi</h3>
+                                <p>
+                                    Mozzarella fior di latte, gorgonzola,
+                                    taleggio, parmesan.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">15€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Quattro Stagioni</h3>
+                                <p>
+                                    Sauce tomate, mozzarella fior di latte,
+                                    jambon à l'os, champignons, artichauts,
+                                    olives.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">16€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Végétarienne</h3>
+                                <p>
+                                    Sauce tomate, mozzarella, champignons,
+                                    aubergines et courgettes marinées, olives
+                                    Kalamata, oignons.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">16€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Calabrese</h3>
+                                <p>
+                                    Sauce tomate, mozzarella fior di latte,
+                                    nduja, ventricina piccante.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">16€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Foresta</h3>
+                                <p>
+                                    Sauce tomate, mozzarella, champignons,
+                                    aubergines, gorgonzola, pesto, parmesan.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">17€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Pollo</h3>
+                                <p>
+                                    Pesto, émincé de poulet rôti, mozzarella,
+                                    oignons rouges, roquette, tomates cerises.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">17€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Diavola</h3>
+                                <p>
+                                    Sauce tomate, mozzarella fior di latte,
+                                    gorgonzola, ventricina piccante.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">18€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>L'estate</h3>
+                                <p>
+                                    Sauce tomate, mozzarella, roquette, jambon
+                                    de parme, parmesan, tomates cerises.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">18€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Boscaiola</h3>
+                                <p>
+                                    Mozzarella fior di latte, émincé de poulet
+                                    rôti, taleggio, noix, miel à la truffe.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">20€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Tartufata</h3>
+                                <p>
+                                    Crème de truffe, mozzarella fior di latte,
+                                    jambon à l'os, burrata.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">20€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Mortadella</h3>
+                                <p>
+                                    Mozzarella, mortadelle à la pistache,
+                                    concassé de pistache, pesto, burrata.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">20€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Bresaola</h3>
+                                <p>
+                                    Sauce tomate, mozzarella, brésaola Black
+                                    Angus, roquette, burrata, pesto, parmesan.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">22€</span>
+                        </div>
+                    </div>
+                    <div
+                        style="
+                            margin-top: 16px;
+                            display: flex;
+                            gap: 16px;
+                            flex-wrap: wrap;
+                        "
+                    >
+                        <p class="menu-note" style="flex: 1">
+                            Supplément burrata : +5€
+                        </p>
+                        <p class="menu-note" style="flex: 1">
+                            Autres suppléments : +2€
+                        </p>
+                    </div>
+                </div>
+
+                <!-- INSALATA -->
+                <div class="menu-section fade-in">
+                    <div class="menu-section-header">
+                        <span class="menu-section-icon">🥗</span>
+                        <h2>Insalata</h2>
+                    </div>
+                    <div class="menu-items-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Caprese</h3>
+                                <p>
+                                    Salade, tomates cerises, mozzarella, huile
+                                    d'olive extra vierge, pesto, basilic.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">14€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Végétarienne</h3>
+                                <p>
+                                    Salade, aubergines et courgettes marinées,
+                                    tomates cerises, olives, artichauts,
+                                    parmesan.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">16€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Italienne</h3>
+                                <p>
+                                    Salade, tomates cerises, parmesan, burrata,
+                                    pesto, jambon de parme, gressini.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">18€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PLATS -->
+                <div class="menu-section fade-in">
+                    <div class="menu-section-header">
+                        <span class="menu-section-icon">🍽️</span>
+                        <h2>Plats</h2>
+                    </div>
+                    <div class="menu-items-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Gnocchi alla Gricia</h3>
+                                <p>Guanciale, pecorino, poivre.</p>
+                            </div>
+                            <span class="menu-item-price">15€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Gnocchi tartufo</h3>
+                                <p>Crème de truffe.</p>
+                            </div>
+                            <span class="menu-item-price">15€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Escalope milanaise</h3>
+                                <p>
+                                    Escalope de noix de veau panée, copeaux de
+                                    parmesan, tagliatelles.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">20€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Escalope parmigiana</h3>
+                                <p>
+                                    Escalope de noix de veau panée, sauce
+                                    napolitana, aubergines, mozzarella fior di
+                                    latte, parmesan, tagliatelles.
+                                </p>
+                            </div>
+                            <span class="menu-item-price">24€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MENU BAMBINO -->
+                <div class="menu-section fade-in">
+                    <div class="menu-section-header">
+                        <span class="menu-section-icon">👶</span>
+                        <h2>Menu Bambino</h2>
+                    </div>
+                    <div class="bambino-card">
+                        <div class="price">10€</div>
+                        <p
+                            style="
+                                color: var(--grey);
+                                font-size: 0.85rem;
+                                margin-bottom: 4px;
+                            "
+                        >
+                            Jusqu'à 10 ans
+                        </p>
+                        <p>
+                            Pâtes jambon / sauce napolitaine
+                            <strong>ou</strong> Petite pizza prosciutto
+                        </p>
+                        <p style="margin-top: 8px">+ 2 boules de glace 🍦</p>
+                    </div>
+                </div>
+
+                <!-- DESSERTS -->
+                <div class="menu-section fade-in">
+                    <div class="menu-section-header">
+                        <span class="menu-section-icon">🍰</span>
+                        <h2>Desserts &amp; Glaces</h2>
+                    </div>
+                    <div class="menu-items-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Assiette fromages italiens</h3>
+                            </div>
+                            <span class="menu-item-price">10€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Panna cotta maison</h3>
+                            </div>
+                            <span class="menu-item-price">7€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Tiramisù maison</h3>
+                            </div>
+                            <span class="menu-item-price">8€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Baba au limoncello</h3>
+                            </div>
+                            <span class="menu-item-price">9€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Café gourmand</h3>
+                            </div>
+                            <span class="menu-item-price">10€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Nutellino</h3>
+                            </div>
+                            <span class="menu-item-price">12€</span>
+                        </div>
+                    </div>
+                    <br />
+                    <h3
+                        style="
+                            font-family: &quot;Playfair Display&quot;, serif;
+                            font-size: 1.3rem;
+                            margin-bottom: 16px;
+                        "
+                    >
+                        🍦 Glaces artisanales
+                    </h3>
+                    <div class="menu-items-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-info"><h3>2 boules</h3></div>
+                            <span class="menu-item-price">6€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Dame blanche</h3>
+                            </div>
+                            <span class="menu-item-price">8€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Chocolat liégeois</h3>
+                            </div>
+                            <span class="menu-item-price">8€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Caramel liégeois</h3>
+                            </div>
+                            <span class="menu-item-price">8€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><h3>Délice</h3></div>
+                            <span class="menu-item-price">8€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info"><h3>Amarena</h3></div>
+                            <span class="menu-item-price">9€</span>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <h3>Limoncello</h3>
+                            </div>
+                            <span class="menu-item-price">9€</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- ===== CTA ===== -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Une envie ? Réservez votre table !</h2>
+                <p>Appelez-nous pour réserver ou pour toute question.</p>
+                <a href="tel:0251627664" class="btn btn-gold"
+                    >📞 02 51 62 76 64</a
+                >
+            </div>
+        </section>
+
+        <!-- ===== FOOTER ===== -->
+        <footer>
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <span class="nav-logo-main"
+                            >La Vita <em>è</em> Bella</span
+                        >
+                        <span
+                            class="nav-logo-sub"
+                            style="
+                                font-size: 0.7rem;
+                                letter-spacing: 0.2em;
+                                text-transform: uppercase;
+                                color: rgba(255, 255, 255, 0.4);
+                            "
+                            >Restaurant Italien · Aizenay</span
+                        >
+                        <p>
+                            Une cuisine italienne authentique préparée avec
+                            passion, des ingrédients frais et la tradition
+                            culinaire italienne.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="menu.html">Notre Menu</a></li>
+                            <li>
+                                <a href="contact.html"
+                                    >Horaires &amp; Adresse</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Contact</h4>
+                        <ul>
+                            <li>
+                                <a href="tel:0251627664">📞 02 51 62 76 64</a>
+                            </li>
+                            <li>📍 107 rue de la Roche</li>
+                            <li>85190 Aizenay</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span>© 2026 La Vita è Bella – Tous droits réservés</span>
+                    <div
+                        style="
+                            display: flex;
+                            gap: 24px;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        "
+                    >
+                        <a href="#">Mentions légales</a>
+                        <a href="#">Politique de confidentialité</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

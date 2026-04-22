@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Horaires &amp; Adresse – La Vita è Bella · Aizenay</title>
+        <meta
+            name="description"
+            content="Restaurant La Vita è Bella – 107 rue de la Roche, 85190 Aizenay. Ouvert du lundi au samedi. Tél : 02 51 62 76 64."
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="icon"
+            href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍕</text></svg>"
+        />
+    </head>
+    <body>
+        <!-- ===== NAVBAR ===== -->
+        <nav class="navbar scrolled" id="navbar">
+            <div class="container">
+                <div class="nav-inner">
+                    <a href="index.html" class="nav-logo">
+                        <span class="nav-logo-main"
+                            >La Vita <em>è</em> Bella</span
+                        >
+                        <span class="nav-logo-sub"
+                            >Restaurant Italien · Aizenay</span
+                        >
+                    </a>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li>
+                            <a href="contact.html" class="active"
+                                >Horaires &amp; Adresse</a
+                            >
+                        </li>
+                    </ul>
+                    <a href="tel:0251627664" class="btn btn-primary nav-reserve"
+                        >📞 Réserver</a
+                    >
+                    <div
+                        class="nav-burger"
+                        id="burger"
+                        aria-label="Menu"
+                        role="button"
+                        tabindex="0"
+                    >
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="nav-mobile" id="nav-mobile">
+                    <a href="index.html">Accueil</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="contact.html">Horaires &amp; Adresse</a>
+                    <a
+                        href="tel:0251627664"
+                        class="btn btn-primary"
+                        style="text-align: center; margin-top: 8px"
+                        >📞 02 51 62 76 64</a
+                    >
+                </div>
+            </div>
+        </nav>
+
+        <!-- ===== PAGE HERO ===== -->
+        <div class="page-hero">
+            <div
+                class="page-hero-bg"
+                style="
+                    background-image: url(&quot;https://static.wixstatic.com/media/bc4538_88edb74a117046d58d4e8a20bae22fd8~mv2.jpeg/v1/fill/w_1960,h_394,al_c,q_85,enc_avif,quality_auto/bc4538_88edb74a117046d58d4e8a20bae22fd8~mv2.jpeg&quot;);
+                "
+            ></div>
+            <div class="page-hero-overlay"></div>
+            <div class="page-hero-content">
+                <h1>Horaires &amp; Adresse</h1>
+                <p>Venez nous rendre visite à Aizenay</p>
+            </div>
+        </div>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <main class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Infos -->
+                    <div>
+                        <div class="contact-card fade-in-left">
+                            <h2>La Vita è Bella</h2>
+
+                            <div class="contact-info-item">
+                                <div class="icon">📍</div>
+                                <div class="content">
+                                    <h4>Adresse</h4>
+                                    <p>
+                                        107 rue de la Roche<br />85190
+                                        Aizenay<br />Vendée, Pays de la Loire
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="icon">📞</div>
+                                <div class="content">
+                                    <h4>Téléphone</h4>
+                                    <a
+                                        href="tel:0251627664"
+                                        style="
+                                            font-size: 1.2rem;
+                                            font-weight: 700;
+                                            color: var(--rosso);
+                                        "
+                                        >02 51 62 76 64</a
+                                    >
+                                    <p style="margin-top: 4px">
+                                        Pour vos réservations
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="icon">🕐</div>
+                                <div class="content">
+                                    <h4>Horaires d'ouverture</h4>
+                                    <table class="hours-table">
+                                        <tbody id="hours-table">
+                                            <tr data-day="1">
+                                                <td>Lundi</td>
+                                                <td>
+                                                    12h–14h &nbsp;/&nbsp;
+                                                    19h–21h30
+                                                </td>
+                                            </tr>
+                                            <tr data-day="2">
+                                                <td>Mardi</td>
+                                                <td>
+                                                    12h–14h &nbsp;/&nbsp;
+                                                    19h–21h30
+                                                </td>
+                                            </tr>
+                                            <tr data-day="3">
+                                                <td>Mercredi</td>
+                                                <td>
+                                                    12h–14h &nbsp;/&nbsp;
+                                                    19h–21h30
+                                                </td>
+                                            </tr>
+                                            <tr data-day="4">
+                                                <td>Jeudi</td>
+                                                <td>
+                                                    12h–14h &nbsp;/&nbsp;
+                                                    19h–21h30
+                                                </td>
+                                            </tr>
+                                            <tr data-day="5">
+                                                <td>Vendredi</td>
+                                                <td>
+                                                    12h–14h &nbsp;/&nbsp;
+                                                    19h–22h
+                                                </td>
+                                            </tr>
+                                            <tr data-day="6">
+                                                <td>Samedi</td>
+                                                <td>
+                                                    12h–14h &nbsp;/&nbsp;
+                                                    19h–22h
+                                                </td>
+                                            </tr>
+                                            <tr data-day="0" class="closed">
+                                                <td>Dimanche</td>
+                                                <td>Fermé</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <div class="icon">🛵</div>
+                                <div class="content">
+                                    <h4>Commandes à emporter</h4>
+                                    <p>
+                                        Bénéficiez de
+                                        <strong
+                                            >-10% sur toutes les pizzas</strong
+                                        >
+                                        pour les commandes à emporter !
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte -->
+                    <div class="fade-in-right">
+                        <div class="map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2721.5!2d-1.6120!3d46.7420!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s107+rue+de+la+Roche%2C+85190+Aizenay!5e0!3m2!1sfr!2sfr!4v1700000000000!5m2!1sfr!2sfr"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="La Vita è Bella - 107 rue de la Roche, Aizenay"
+                            ></iframe>
+                        </div>
+                        <div style="margin-top: 20px; text-align: center">
+                            <a
+                                href="https://maps.google.com/?q=107+rue+de+la+Roche,+85190+Aizenay"
+                                target="_blank"
+                                rel="noopener"
+                                class="btn btn-primary"
+                            >
+                                📍 Ouvrir dans Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- ===== CTA ===== -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Prêt à nous rendre visite ?</h2>
+                <p>
+                    Réservez votre table dès maintenant et savourez la vraie
+                    cuisine italienne.
+                </p>
+                <a href="tel:0251627664" class="btn btn-gold"
+                    >📞 02 51 62 76 64</a
+                >
+            </div>
+        </section>
+
+        <!-- ===== FOOTER ===== -->
+        <footer>
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <span class="nav-logo-main"
+                            >La Vita <em>è</em> Bella</span
+                        >
+                        <span
+                            class="nav-logo-sub"
+                            style="
+                                font-size: 0.7rem;
+                                letter-spacing: 0.2em;
+                                text-transform: uppercase;
+                                color: rgba(255, 255, 255, 0.4);
+                            "
+                            >Restaurant Italien · Aizenay</span
+                        >
+                        <p>
+                            Une cuisine italienne authentique préparée avec
+                            passion, des ingrédients frais et la tradition
+                            culinaire italienne.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="menu.html">Notre Menu</a></li>
+                            <li>
+                                <a href="contact.html"
+                                    >Horaires &amp; Adresse</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Contact</h4>
+                        <ul>
+                            <li>
+                                <a href="tel:0251627664">📞 02 51 62 76 64</a>
+                            </li>
+                            <li>📍 107 rue de la Roche</li>
+                            <li>85190 Aizenay</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span>© 2026 La Vita è Bella – Tous droits réservés</span>
+                    <div
+                        style="
+                            display: flex;
+                            gap: 24px;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        "
+                    >
+                        <a href="#">Mentions légales</a>
+                        <a href="#">Politique de confidentialité</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
